@@ -1,0 +1,5 @@
+vaporwave:
+  build: .
+  volumes:
+    - .:/opt/vaporwave
+  command: bash -c "while true; do sleep 1; done"
